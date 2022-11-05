@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+.manu-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.brand-name {
+    color: white;
+}
+
+.menu-items {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    padding: 10px 10px 0 0;
+    font-size: 20px;
+    color: white;
+}
+
+.menu-items li:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* banner section  */
+
+.banner-container{
+    display: flex;
+    /* background-color: rgba(0, 0, 0, 0.952); */
+    background-image: url(images/bg-photo.jfif);
+    background-repeat: no-repeat;
+    
+    padding-top: 8%;
+    padding-bottom: 12.2%;
+    gap: 10%;
+}
+
+.left-image{
+    width: 30%;
+}
+
+.banner-text{
+    width: 30%;
+}
+
+.right-image{
+    width: 30%;
+    position: right;
+}
